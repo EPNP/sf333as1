@@ -60,7 +60,7 @@ class MainActivity : AppCompatActivity() {
         random = nextInt(1,1000)
         count = 0
         hintTextView.text = ""
-        textView.text = "Try to guess the number i'm thinking of from 1-100"
+        textView.text = "Try to guess the number i'm thinking of from 1-1000"
         countTextView.text = "Guesses: $count"
         editText.text.clear()
     }
