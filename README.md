@@ -1,7 +1,13 @@
 # sf333as1
 
-Detail :
-Demo Video :
+Android App: Number Guessing Game using Kotlin and Jetpack Compose to work according to the following requirements:
+1. Players can input a number to guess.
+2. The system will provide feedback to the player whether the guess is correct, higher, or lower than the target number.
+3. The system will stop when the guess is correct and display the number of attempts made by the player before guessing correctly.
+4. Players can start a new game.
 
-# Sathit Juntanasatan 6410742024
-# Napatsinee Puangbubpa 6410742354
+# Members
+- Sathit Juntanasatan 6410742024
+- Napatsinee Puangbubpa 6410742354
+
+# Demo Video : https://youtu.be/K3RsTP7jOW4
