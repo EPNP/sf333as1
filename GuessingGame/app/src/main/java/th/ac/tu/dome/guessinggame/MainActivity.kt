@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
     lateinit var imageButtonCheck: ImageButton
     lateinit var hintTextView: TextView
 
-    var random: Int = nextInt(1,100)
+    var random: Int = nextInt(1,1000)
     var count: Int = 0
     @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
         imageButtonCheck = findViewById(R.id.imageButtonCheck)
         hintTextView = findViewById(R.id.hintTextView)
 
-        textView.text = "Try to guess the number i'm thinking of from 1-100"
+        textView.text = "Try to guess the number i'm thinking of from 1-1000"
         countTextView.text = "Guesses: $count"
 
         imageButtonCheck.setOnClickListener {
@@ -57,7 +57,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
     fun reset(){
-        random = nextInt(1,100)
+        random = nextInt(1,1000)
         count = 0
         hintTextView.text = ""
         textView.text = "Try to guess the number i'm thinking of from 1-100"
