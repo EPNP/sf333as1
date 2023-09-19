@@ -10,4 +10,8 @@ Android App: Number Guessing Game using Kotlin and Jetpack Compose to work accor
 - Sathit Juntanasatan 6410742024
 - Napatsinee Puangbubpa 6410742354
 
-# Demo Video : https://youtu.be/K3RsTP7jOW4
+# Demo Video : 
+
+
+https://github.com/EPNP/sf333as1/assets/88434224/c3f648db-cccc-4c0f-b71c-8f157a3b5cd9
+
